@@ -32,7 +32,6 @@ namespace TicTacToe.Controllers
         [HttpPost]
         public Board Post([FromBody]Value value)
         {
-            //operation on boardGame
             if (BoardGame.IsValidMove(value))
             {
                 BoardGame.Add(value);
