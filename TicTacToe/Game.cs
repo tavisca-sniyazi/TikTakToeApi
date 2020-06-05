@@ -83,7 +83,7 @@ namespace TicTacToe
 
         internal Board ShowWinner()
         {
-            MyBoard.Status = "Hurrah you WON";
+            MyBoard.Status = "hurrah you WON";
             return MyBoard;
         }
 
